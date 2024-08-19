@@ -288,4 +288,5 @@ win.bind("<BackSpace>", lambda Event: delete())
 
 
 # start window
-win.mainloop()
+if __name__ == '__main__':
+    win.mainloop()
